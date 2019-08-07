@@ -43,7 +43,7 @@ app.post("/", function(req,res){
     url: "https://us15.api.mailchimp.com/3.0/lists/e6bffd1a68",
     method: "post",
     headers: {
-        "Authorization" : "jacob1 eb9c14066cc5955578d72c08859e161c-us15"
+        "Authorization" : "jacob1 *api key goes here*"
     },
     body: jsonData
   };
@@ -72,8 +72,3 @@ app.get("/",function(req, res){
 });
 
 
-
-// eb9c14066cc5955578d72c08859e161c-us15
-
-
-// fb1353f1ea
